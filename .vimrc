@@ -18,8 +18,12 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'L9'
-Plugin 'SirVer/utlisnips'
-Plugin 'vim-syntastic/syntastic'
+
+"apparently these two are handled with the community repos of pacman
+"Plugin 'SirVer/utlisnips'
+"Plugin 'vim-syntastic/syntastic'
+"
+
 
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -33,6 +37,8 @@ Plugin 'vim-syntastic/syntastic'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+"this works if the given package is installed from aur
 set t_Co=256
 color wombat256mod                  " TODO fork wombat
 highlight TabLineFill ctermfg=234
