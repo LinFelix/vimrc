@@ -1,0 +1,5 @@
+= My .vimrc and the additional config
+
+while i spend a lot of my time in emacs, having a highly transportable and lightweight alternative might be pretty useful
+
+As well as my other config files, it is currently growing a lot, so don't judge the size or the emptyness yet. (if you find something that could have been soved better differently, tell me)
